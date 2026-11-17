@@ -1,13 +1,8 @@
-# Ambiente virtual
-.venv/
-
-# Chaves e credenciais
 .env
-.env.*
-
-# Arquivos temporários Python
+.venv/
 __pycache__/
 *.pyc
-
-# Configurações do editor
-.vscode/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
